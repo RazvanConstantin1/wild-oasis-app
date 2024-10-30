@@ -115,6 +115,7 @@ function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
 
       <FormRow label="Cabin Photo">
         <FileInput
+          type="file"
           id="image"
           accept="image/*"
           {...register("image", {
